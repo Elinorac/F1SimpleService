@@ -1,0 +1,13 @@
+<section class="menu"> 
+    <div class="racer-list">
+        <div class="racer group">
+            <h2> Race Schedule:</h2>
+            <ul class="races">
+                <div *ngIf="races">
+                    <h5>{{races[0].raceName}}</h5>
+                    <b>Season: </b> {{races[0].season}} <br><b>Date: </b> {{races[0].date}} <br><b>Time: </b> {{races[0].time}} 
+                </div>
+            </ul>
+        </div>
+    </div>
+  </section>

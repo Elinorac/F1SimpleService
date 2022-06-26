@@ -1,0 +1,12 @@
+<section class="menu"> 
+    <div class="racer-list">
+        <div class="racer group">
+            <h2> Race Schedule:</h2>
+            <ul class="races">
+                <li *ngFor="let race of races">
+                    <span><a routerLink = "/detail" routerLinkActive = "active">{{race.raceName}}</a></span> {{race.country}} 
+                </li>
+            </ul>
+        </div>
+    </div>
+  </section>

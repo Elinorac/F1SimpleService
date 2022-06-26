@@ -1,0 +1,12 @@
+<section class="menu"> 
+    <div class="racer-list">
+        <div class="racer group">
+            <h2> Driver list:</h2>
+            <ul class="drivers">
+                <li *ngFor="let driver of drivers">
+                    <b>Name: </b><span>{{driver.givenName}}</span> {{driver.familyName}} <br>Nationality: {{driver.nationality}}
+                </li>
+            </ul>
+        </div>
+    </div>
+  </section>
